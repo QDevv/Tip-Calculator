@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197,228,231);
+}
+
+h1{
+    /* display: block;
+    margin: auto; */
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.white-container{
+display: flex;
+border-radius: 10px;
+gap: 20px;
+background-color: white;
+width: 70%;
+height: 50vh;
+/* border: 2px solid red; */
+padding: 15px;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.calculator{
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+
+}
+.Results{
+    width: 50%;
+    background-color:hsl(183, 100%, 15%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+.Tip-wrapper, .Total-wrapper{
+    display: flex;
+    gap: 60%;
+    margin-bottom: 10px;
+    color: white;
+}
+.Tip-wrapper span, .Total-wrapper span{
+    color: rgb(168, 159, 159);
+    font-size: small;
+}
+.Total-wrapper h1{
+    position: relative;
+    left: 13px;
+}
+.Results button{
+     width: 80%;
+    height: 5vh;
+    margin: auto;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    /* margin: 14vh auto; */
+    /* margin-top: 14vh; */
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    color: black;
+    font-weight: 600;
+    /* padding: 10px; */
+    /* margin-bottom: 23px;  */
+    
+}
+
+.row-1{
+ display: flex;
+ gap: 5%;
+ width: 100%;
+ /* border: 2px solid green; */
+ /* justify-content: center; */
+ /* padding-left: 0; */
+}
+.row-1 div{
+    width: 30%;
+    height: 40px;
+    background-color:rgb(0, 45, 48) ;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-2{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    margin-top: 15px;
+}
+.row-2 div{
+     display: flex;
+     width: 30%; 
+    height: 40px;
+    background-color:rgb(0, 45, 48) ;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center; 
+}
+.row-2 input{
+    width: 30%;
+    padding-left: 25px;
+    font-weight: 700;
+    color: rgb(0,71,75);
+}
+.bill-wrapper input{
+ width: 100%;
+ border-radius: 3px;
+ background-color: #f3f8fb;
+ border: none;
+ height: 30px;
+}
+.People-wrapper input{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #f3f8fb;
+    border: none;
+    height: 30px;
+}
+.bill-wrapper .wrong{
+ position: relative;
+ z-index: 2;
+ color: red;
+}
+.btv{
+    color: red; 
+}
